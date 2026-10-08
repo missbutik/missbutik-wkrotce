@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Miss Butik — sklep internetowy wkrótce</title>
+<meta name="description" content="Miss Butik — butik z modą. Sklep internetowy w przygotowaniu.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+<style>
+  :root {
+    --plum: #3b1f2b;
+    --rose: #f3dce0;
+    --blush: #e7b9c2;
+    --ink: #2a1a20;
+    --soft: #6e5560;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body {
+    background: var(--rose);
+    color: var(--ink);
+    font: 400 1.0625rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: grid;
+    place-items: center;
+    padding: 2rem 1.5rem;
+  }
+  main { max-width: 34rem; width: 100%; }
+  h1 {
+    font-family: Didot, "Bodoni 72", "Bodoni MT", "Playfair Display", Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(3.25rem, 13vw, 6rem);
+    line-height: .95;
+    letter-spacing: -.01em;
+    color: var(--plum);
+    padding-bottom: 1.25rem;
+    border-bottom: 2px solid var(--blush);
+    margin-bottom: 1.5rem;
+  }
+  p + p { margin-top: .9rem; }
+  .lead { font-size: 1.25rem; color: var(--plum); }
+  a { color: var(--plum); text-underline-offset: .2em; }
+  a:focus-visible { outline: 2px solid var(--plum); outline-offset: 3px; }
+  .en { margin-top: 2rem; color: var(--soft); font-size: .95rem; }
+  footer { margin-top: 2.5rem; color: var(--soft); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Miss Butik</h1>
+  <p class="lead">Butik z modą. Sklep internetowy jest w przygotowaniu.</p>
+  <p>Wkrótce zamówisz u nas online, z dostawą do paczkomatu lub kurierem. Do tego czasu napisz do nas: <a href="mailto:tech@missbutik.pl">tech@missbutik.pl</a>.</p>
+  <p class="en" lang="en">Miss Butik is a fashion boutique based in Poland. Our online store is launching soon. Contact: <a href="mailto:tech@missbutik.pl">tech@missbutik.pl</a>.</p>
+  <footer>© 2026 Miss Butik</footer>
+</main>
+</body>
+</html>
